@@ -1,0 +1,427 @@
+body{
+ width:100%;
+}
+
+/** navigation tab **/
+
+.logo {
+	position: absolute;
+	width: 41px;
+	height: 40px;
+	left: 41px;
+	top: 27px;
+
+	background: url(rocket);
+}
+
+.spacia {
+	position: absolute;
+	width: 94px;
+	height: 40px;
+	left: 93px;
+	top: 27px;
+
+	font-family: 'Apple LiGothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 40px;
+
+	color: #FFFFFF;
+}
+
+.experiences {
+	position: absolute;
+	width: 124px;
+	height: 30px;
+	left: 813px;
+	top: 40px;
+}
+
+.modeltrip {
+	position: absolute;
+	width: 195px;
+	height: 30px;
+	left: 1035px;
+	top: 40px;
+}
+
+.about {
+	position: absolute;
+	width: 63px;
+	height: 30px;
+	left: 1248px;
+	top: 40px;
+}
+
+.search {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 1413px;
+	top: 31px;
+}
+	
+	
+.mainbar {
+	font-family: 'Apple LiGothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+/** Formatting **/
+
+.title {
+	font-family: 'Toppan Bunkyu Midashi Mincho';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 86px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.smalltitle {
+
+	font-family: 'Toppan Bunkyu Midashi Mincho';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 54px;
+
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.text {
+	font-family: 'Apple LiGothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+
+	text-align: left;
+
+	color: #FFFFFF;
+}
+
+.greytext {
+	font-family: 'Apple LiGothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	
+	text-align: center;
+
+	color: #878787;
+}
+
+/** First Third of Home Page **/
+
+#titleone {
+	position: absolute;
+	width: 558px;
+	height: 172px;
+	left: 457px;
+	top: 90px;
+}
+
+#smalltitleone {
+	position: absolute;
+	width: 530px;
+	height: 54px;
+	left: 840px;
+	top: 800.18px;
+
+}
+
+#Moon {
+	position: absolute;
+	width: 60px;
+	height: 30px;
+	left: 37px;
+	top: 169px;
+}
+
+#SpaceTourism {
+	position: absolute;
+	width: 154px;
+	height: 30px;
+	left: 400px;
+	top: 350px;
+}
+
+#Mars {
+	position: absolute;
+	width: 53px;
+	height: 30px;
+	left: 1250px;
+	top: 220px;
+}
+
+#peryear {
+	position: absolute;
+	width: 121px;
+	height: 30px;
+	left: 257px;
+	top: 780px;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+
+.moon {
+	position: absolute;
+	width: 379px;
+	height: 379px;
+	left: 48px;
+	top: 110px;
+
+	background: url(moon.png);
+}
+
+.earth {
+	position: relative;
+	width: 591px;
+	height: 591px;
+	left: 450px;
+	top: 300px;
+
+	background: url(earth.png);
+}
+
+.mars {
+	position: absolute;
+	width: 500px;
+	height: 650px;
+	left: 930px;
+	top: 181px;
+
+	background: url(mars.png);
+	transform: rotate(15deg);
+}
+
+.datanumbers {
+	font-family: 'Toppan Bunkyu Midashi Mincho';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 54px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+#numberone {
+	position: absolute;
+	width: 48px;
+	height: 54px;
+	left: 48px;
+	top: 416px;
+}
+
+#numbertwo {
+	position: absolute;
+	width: 47px;
+	height: 54px;
+	left: 49px;
+	top: 506px;
+}
+
+#numberthree {
+	position: absolute;
+	width: 44px;
+	height: 54px;
+	left: 50px;
+	top: 596px;
+}
+
+#numberfour {
+	position: absolute;
+	width: 24px;
+	height: 54px;
+	left: 60px;
+	top: 686px;
+}
+
+#textone {
+	position: absolute;
+	width: 140px;
+	height: 30px;
+	left: 137px;
+	top: 438px;
+}
+
+#texttwo {
+	position: absolute;
+	width: 209px;
+	height: 30px;
+	left: 137px;
+	top: 528px;
+}
+
+#textthree {
+	position: absolute;
+	width: 136px;
+	height: 30px;
+	left: 137px;
+	top: 618px;
+}
+
+#textfour {
+	position: absolute;
+	width: 144px;
+	height: 30px;
+	left: 137px;
+	top: 708px;
+}
+
+.lineone {
+	position: absolute;
+	width: 1512px;
+	height: 0px;
+	left: 0px;
+	top: 95px;
+
+	border: 0.5px solid #FFFFFF;
+}
+
+.linetwo {
+	position: absolute;
+	width: 110px;
+	height: 0px;
+	left: 198px;
+	top: 40px;
+
+	border: 0.5px solid #FFFFFF;
+	transform: rotate(90deg);
+}
+
+.linethree {
+	position: absolute;
+	width: 110px;
+	height: 0px;
+	left: 702px;
+	top: 40px;
+	
+	border: 0.5px solid #FFFFFF;
+	transform: rotate(90deg);
+}
+
+.linefour {
+	position: absolute;
+	width: 110px;
+	height: 0px;
+	left: 1332px;
+	top: 40px;
+
+	border: 0.5px solid #FFFFFF;
+	transform: rotate(90deg);
+}
+
+.circlearrow {
+	position: absolute;
+	width: 46px;
+	height: 46px;
+	left: 734px;
+	top: 892px;
+}
+
+/** Second Third of Home Page **/
+
+.rectangletwo {
+	position: absolute;
+	width: 1512px;
+	height: 982px;
+	left: 0px;
+	top: 982px;
+	border: 0px;
+
+	background: #1C0E2A;
+}
+
+#titletwo {
+	position: absolute;
+	width: 800px;
+	height: 86px;
+	left: 95px;
+	top: 980px;
+}
+
+#smalltitletwo {
+	position: absolute;
+	width: 337px;
+	height: 54px;
+	left: 797px;
+	top: 1500px;
+}
+
+.astronaut {
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	left: 1000px;
+	top: 950px;
+
+	background: url(astronaut.png);
+}
+
+.astroplanet {
+	position: absolute;
+	width: 562px;
+	height: 562px;
+	left: 34px;
+	top: 1402px;
+
+	background: url(astroplanet.png);
+}
+
+#maintexttwo {
+	position: absolute;
+	width: 837px;
+	height: 240px;
+	left: 151px;
+	top: 1170px;
+}
+
+#infotexttwo {
+	position: absolute;
+	width: 368px;
+	height: 150px;
+	left: 797px;
+	top: 1600px;
+}
+
+#andmuchmore {
+	position: absolute;
+	width: 200px;
+	height: 30px;
+	left: 1106px;
+	top: 1800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
